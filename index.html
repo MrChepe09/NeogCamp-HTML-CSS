@@ -3,138 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Component Library</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <meta name=”robots” content="none">
+    <meta name="description" content="Portfolio website of Bhupinder Singh - Web Developer. View my projects and read my blogs.">
+    <title>Home | Bhupinder Singh</title>
 </head>
 <body>
-    <!-- Heading -->
-    <h1>Bhupinder's Component Library</h1>
-    <p>My name is Bhupinder Singh and I'm attending Tanay Pratap's 
-        live stream on HTML CSS to make my own component library.
-    </p>
-    <hr>
-    <!-- ------------------ -->
-
-    <!-- Typography -->
-    <h2>@Typography</h2>
-
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second biggest heading.</h2>
-    <p>This is a normal text. Free flowing and auto adjusting which works just like a paragraph.</p>
-    <small>This is a smaller text.</small>
-    <hr>
-    <!-- ------------------ -->
-
-    <!-- Container -->
-    <h2>@Container</h2>
-
-    <h3>Fluid Container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>Centre Container</h3>
-    <div class="container containercenter">This is a centre container and it will go till a given width and center content.</div>
-    <hr>
-    <!-- ------------------ -->
-
-    <!-- Links -->
-    <h2>@Links</h2>
-    
-    <a class="link link-primary" href="/">Primary link</a>
-    <a class="link link-secondary" href="/">Secondary link</a>
-    <hr>
-    <!-- ------------------ -->
-
-    <!-- Lists -->
-    <h2>@Lists</h2>
-    
-    <h3>Unordered List</h3>
-    <p>This list doesn't have bullets</p>
-    <ul class="non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>Unordered Inline List</h3>
-    <ul class="non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3>Reverse Ordered List</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-    <hr>
-    <!-- ------------------ -->
-
-    <!-- Navigation -->
-    <h2>@Nav</h2>
+    <!-- Nav -->
     <nav class="navigation container">
-        <div class="nav-brand">I'M-Bhupinder</div>
+        <div class="nav-brand">MrChepeDev</div>
         <ul class="non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">PRODUCTS</a>
+                <a class="link" href="/projects.html">PROJECTS</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">ABOUT</a>
+                <a class="link" href="/blogs.html">BLOGS</a>
             </li>
         </ul>
     </nav>
-    <hr>
-    <!-- ------------------ -->
 
     <!-- Header -->
-    <h2>@Header</h2>
-
     <header class="hero">
-        <img class="hero-img" src="/images/hero-image.svg">
+        <img class="hero-img" src="../images/hero-image.svg">
         <h3 class="hero-heading">Bhupinder Singh - <span class="highlighted">Web Developer</span></h3>
     </header>
-    <hr>
-    <!-- ------------------ -->
 
-    <!-- Section -->
-    <h2>@Section</h2>
+    <section class="section ow">
+        <div class="container containercenter">
+            <h1>Technologies</h1>
+            <p>I am familiar with <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>ReactJS</strong>. I can code in <strong>C++</strong>, <strong>Javascript</strong> and <strong>Python</strong>. I have worked with <strong>SQL</strong> and <strong>MONGODB</strong> in Databases. I like learning <strong>Data Structures</strong> and <strong>Algorithms</strong>. My passion is competing in various coding competetions.</p>
+        </div>
+    </section>
+
     <section class="section">
         <div class="container containercenter">
-            <h1>White Section</h1>
-            <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has.</p>
+            <h1>Projects</h1>
+            <p>I have created some cool and awesome projects. You can see my work and all the projects hosted online.</p>
+            <a class="link link-primary" href="/projects.html">BROWSE PROJECTS</a>
         </div>
     </section>
 
     <section class="section ow">
         <div class="container containercenter">
-            <h1>Off White Section</h1>
-            <p>What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?</p>
+            <h1>Blogs</h1>
+            <p>I like writing a lots of Technical and Non-Technical projects. Give a read to some of my blogs here.</p>
+            <a class="link link-primary" href="/blogs.html">READ BLOGS</a>
         </div>
     </section>
-    <hr>
-    <!-- ------------------ -->
 
-    <!-- Footer -->
-    <h2>@Footer</h2>
     <footer class="footer"> 
-        <div class="footer-header">Some small heading inside footer</div>
+        <div class="footer-header">Connect with me</div>
         <ul class="social-links">
             <li class="list-item-inline">
-                <a class="link" href='#'>SocialOne</a>
+                <i></i>
+                <a class="link" target="_blank" href='https://github.com/MrChepe09'> <i class="fab fa-github"></i> Github</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href='#'>SocialTwo</a>
+                <a class="link" target="_blank" href='https://twitter.com/ChepeDev/'><i class="fab fa-twitter"></i> Twitter</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href='#'>SocialThree</a>
+                <a class="link" target="_blank" href='https://www.instagram.com/mrchepedev/'><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" target="_blank" href='https://www.linkedin.com/in/bhupinder-singh-359867165/'><i class="fab fa-linkedin"></i> Linkedin</a>
             </li>
         </ul>
     </footer>
-    <!-- ------------------ -->
-
+    
 </body>
 </html>
