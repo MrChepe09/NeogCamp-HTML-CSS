@@ -24,9 +24,21 @@ hr {
   padding: 0rem 1rem;
 }
 
+.container h1 {
+  font-size: 2rem;
+}
+
 .containercenter {
   max-width: 600px;
   margin: auto;
+}
+
+.margintop {
+  margin-top: 3rem;
+}
+
+.marginbottom {
+  margin-bottom: 3rem;
 }
 
 /* Links */
@@ -107,13 +119,14 @@ hr {
   max-width: 350px;
   display: block;
   margin: auto;
+  margin-top: 1.8rem;
 }
 
 .hero .hero-heading {
-  color: var(--dark-grey);
+  /* color: var(--dark-grey); */
   /* padding-top: 1rem; */
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .hero .hero-heading .highlighted {
@@ -128,6 +141,7 @@ hr {
 
 .section {
   padding: 2rem;
+  padding-bottom: 4rem;
 }
 
 .section h1 {
@@ -150,7 +164,7 @@ hr {
 
 .footer .footer-header {
   font-weight: bold;
-  font-size: large;
+  font-size: 1.8rem;
 }
 
 .footer .link {
@@ -159,4 +173,8 @@ hr {
 
 .footer ul {
   padding-inline-start: 0px;
+}
+
+.footer li a:hover {
+  color: black;
 }
