@@ -176,5 +176,25 @@ hr {
 }
 
 .footer li a:hover {
-  color: black;
+  color: 1px black;
+}
+
+/* Blogs */
+.tags {
+  display: block;
+  font-weight: bold;
+  /* background-color: var(--light-grey); */
+}
+.tag {
+  background-color: var(--dark-grey);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.2rem;
+}
+.nomargin {
+  margin-bottom: 0;
+}
+
+.pad-para {
+  padding: 0.4rem;
 }
